@@ -113,17 +113,3 @@ WHERE run_date = CURRENT_DATE AND score_riesgo > 0.95
 ORDER BY score_riesgo DESC LIMIT 100;
 ```
 
-## Limitations
-
-1. Limited historical label (4,732 of 655K)
-2. Possible false positives in new behaviors
-3. Risk pattern changes not captured in history
-4. Extreme class imbalance (0.72% positive)
-
-## Next Steps
-
-- Incorporate Redshift for real-time features
-- Ensemble with unsupervised detector (anomaly_detection)
-- Cross-validation with risk experts
-- A/B testing: impact of scores on retention
-
