@@ -126,3 +126,4 @@ ORDER BY score_riesgo DESC LIMIT 100;
 - Ensemble with unsupervised detector (anomaly_detection)
 - Cross-validation with risk experts
 - A/B testing: impact of scores on retention
+
